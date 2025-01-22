@@ -1,6 +1,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  font-size: 24px;
 }
 
 html,
@@ -12,7 +13,7 @@ body {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: var(--font-main), Arial, Helvetica, sans-serif;
+  font-family: var(--font-main), var(--font-main-mono), Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
